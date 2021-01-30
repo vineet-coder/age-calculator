@@ -26,6 +26,6 @@ function clickHandler() {
   } else {
     age = newYear - birthDateYear - 1;
   }
-  outputDiv.innerText = age;
+  outputDiv.innerText = " your age is " + age;
 }
 btnTranslate.addEventListener("click", clickHandler);
